@@ -1,0 +1,40 @@
+body{
+    font-family: monospace;
+    background-color: black;
+    }
+    .container{
+    text-align: center;
+    margin-left: 24%;
+    border-radius: 10%;
+    width: 500px;
+    border: 2px solid white;
+    margin-top: 3%;
+    padding: 27px;
+    height: 350px;
+}
+
+
+.num{
+    display: flex;
+    color: white;
+    margin-left: 15%;
+    
+}
+h2{
+    font-size: 80px;
+    margin-inline: px;
+}
+
+button{
+    width: 90px;
+    height: 60px;
+    background-color:gold;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    margin-inline: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
