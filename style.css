@@ -1,6 +1,6 @@
 body{
     font-family: monospace;
-    background-color: black;
+    background-color: rgb(152, 0, 91);
     }
     .container{
     text-align: center;
@@ -13,10 +13,14 @@ body{
     height: 350px;
 }
 
-
+h1{
+    color: white;
+    font-size: 30px;
+    width: 500px;
+}
 .num{
     display: flex;
-    color: white;
+    color: rgb(255, 133, 184);
     margin-left: 15%;
     
 }
@@ -28,8 +32,8 @@ h2{
 button{
     width: 90px;
     height: 60px;
-    background-color:gold;
-    color: rgb(0, 0, 0);
+    background-color:rgb(208, 52, 99);
+    color: rgb(255, 255, 255);
     font-size: 25px;
     border: none;
     outline: none;
