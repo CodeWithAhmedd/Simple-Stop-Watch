@@ -80,9 +80,13 @@ start.addEventListener("click", function(){
                     hr = hr + 1;
                     min = 0
                     }
+                    let getMilli = milli;
                     let getSec = sec;
                     let getMin = min;
-                   
+
+                    if(milli < 10){
+                        getMilli = "0" + milli;
+                        }
                     if(sec < 10){
                         getSec = "0" + sec;
                         }
